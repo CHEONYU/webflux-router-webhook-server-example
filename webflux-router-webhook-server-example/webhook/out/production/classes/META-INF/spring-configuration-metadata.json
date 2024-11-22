@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "cafe24",
+      "type": "com.yj.webhook.global.properties.Cafe24Properties",
+      "sourceType": "com.yj.webhook.global.properties.Cafe24Properties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "cafe24.webhook-authentication-key",
+      "type": "java.lang.String",
+      "sourceType": "com.yj.webhook.global.properties.Cafe24Properties"
+    },
+    {
+      "name": "cafe24.withdrawal-redis-key-form",
+      "type": "java.lang.String",
+      "sourceType": "com.m2.webhook.global.properties.Cafe24Properties"
+    }
+  ],
+  "hints": []
+}

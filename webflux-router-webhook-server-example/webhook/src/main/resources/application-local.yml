@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: local
+
+################################################################################
+# Kafka Config
+################################################################################
+kafka:
+  bootstrap-servers: 127.0.0.1:9092, 127.0.0.1:9093, 127.0.0.1:9094
+  topic:
+    name: LOCAL_WEBHOOK_CUSTOMER
+
+cafe24:
+  webhook-authentication-key: authentication_key_example
