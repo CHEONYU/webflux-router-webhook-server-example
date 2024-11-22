@@ -1,4 +1,4 @@
-package com.m2.webhook;
+package com.yj.webhook;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
