@@ -4,9 +4,11 @@
 ![Java](https://img.shields.io/badge/Java-17-blue?style=flat-square)
 ![Kafka](https://img.shields.io/badge/Kafka-Enabled-orange?style=flat-square)
 
-이 프로젝트는 **Spring WebFlux**를 기반으로 제작된 가벼운 **웹훅 수신 애플리케이션**입니다.  
+이 프로젝트는 **Spring WebFlux**를 기반으로 제작된 가벼운 **웹훅 수신 애플리케이션**입니다.
+카페24에서 제공하는 webhook 샘플 예제 데이터를 기반으로 제작되었습니다.  
 수신된 웹훅 데이터를 비동기 방식으로 처리하며, 이를 메시지 큐인 **Kafka**에 퍼블리싱합니다.  
 `Router Functional` 스타일로 설계되어 깔끔하고 효율적인 데이터 흐름을 제공합니다.
+
 
 ---
 
